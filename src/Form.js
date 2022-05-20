@@ -27,28 +27,28 @@ function Form() {
                     />
                 </div>
                 <div className="col-lg-6 mb-2">
-                    <label htmlFor="inputEmail4" className="form-label">
+                    <label htmlFor="inputposition" className="form-label">
                         Position
                     </label>
-                    <input type="email" className="form-control" id="inputPosition" />
+                    <input type="text" className="form-control" id="inputPosition" />
                 </div>
                 <div className="col-lg-6">
-                    <label htmlFor="inputPassword4" className="form-label">
+                    <label htmlFor="inputSalary" className="form-label">
                         Salary
                     </label>
-                    <input type="password" className="form-control" id="inputSalary" />
+                    <input type="number" className="form-control" id="inputSalary" />
                 </div>
                 <div className="col-lg-6 mb-2">
-                    <label htmlFor="inputEmail4" className="form-label">
+                    <label htmlFor="inputCity" className="form-label">
                         City
                     </label>
-                    <input type="email" className="form-control" id="inputCity" />
+                    <input type="text" className="form-control" id="inputCity" />
                 </div>
                 <div className="col-lg-6">
-                    <label htmlFor="inputPassword4" className="form-label">
+                    <label htmlFor="inputState" className="form-label">
                         State
                     </label>
-                    <input type="password" className="form-control" id="inputState" />
+                    <input type="text" className="form-control" id="inputState" />
                 </div>
                 <div className="col-12 mb-2">
                     <label htmlFor="inputAddress" className="form-label">
@@ -60,7 +60,7 @@ function Form() {
                     <label htmlFor="inputZip" className="form-label">
                         Zip
                     </label>
-                    <input type="text" className="form-control" id="inputZip" />
+                    <input type="number" className="form-control" id="inputZip" />
                 </div>
                 
                 <div className="col-12 d-flex justify-content-center">

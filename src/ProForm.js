@@ -8,7 +8,7 @@ function ProFrom() {
             <h1 className="text-center">Create New Product</h1>
             <form className="row g-3">
                 <div className="col-md-12 mb-2">
-                    <label htmlFor="username" className="form-label">
+                    <label htmlFor="name" className="form-label">
                         Product Name
                     </label>
                     <input
@@ -18,7 +18,7 @@ function ProFrom() {
                     />
                 </div>
                 <div className="col-md-12 mb-2">
-                    <label htmlFor="username" className="form-label">
+                    <label htmlFor="category" className="form-label">
                         Category
                     </label>
                     <input
@@ -28,10 +28,10 @@ function ProFrom() {
                     />
                 </div>
                 <div className="col-md-12 mb-4">
-                    <label htmlFor="inputEmail4" className="form-label">
+                    <label htmlFor="inputPrice" className="form-label">
                         Product Price
                     </label>
-                    <input type="email" className="form-control" id="inputPosition" />
+                    <input type="number" className="form-control" id="inputPrice" />
                 </div>
                 <div className="col-12 d-flex justify-content-center">
                     <button type="submit" className="btn btn-lg btn-primary">
